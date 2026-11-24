@@ -3,7 +3,7 @@ miBase = dataset.connect("sqlite:///base.db")
 tabla = miBase["Productos"]
 
 while True:
-    opciones = input("\nA - Agregar\nL - Listar\nS - Salir\nBT - Buscar en toda la base:\nR - Remover por nombre\nID - Borrar por ID\nAC - ACTUALIZAR \n").upper()
+    opciones = input("\nA - Agregar\nL - Listar\nS - Salir\nBT - Buscar en toda la base:\nR - Remover por nombre\nID - Borrar por ID\nAC - Actualizar Registro").upper()
 
     match opciones:
 
